@@ -1,0 +1,16 @@
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Python cache and local virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local QA/render artifacts generated during deck validation
+outputs/qa/
+
+# Temporary Office extraction/render folders
+unpacked/
+*.tmp
+

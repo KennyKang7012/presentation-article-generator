@@ -1,0 +1,25 @@
+{
+  "skill_name": "article-to-presentation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "請把這篇網路文章 https://example.com/ai-agent-intro 整理成重點、大綱與學習指南，先產生 Markdown 摘要，再做成專業簡報。若需要 Python 請使用 uv。",
+      "expected_output": "Creates an outline-summary Markdown file, a professional PPTX deck, cites the URL, uses uv for Python, and reports QA results.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "請把 notes/company-strategy.md 轉成一份 10-12 頁的主管簡報，同時保留可重複使用的簡報大綱摘要 Markdown。",
+      "expected_output": "Reads the Markdown source, creates a structured outline-summary Markdown, generates a polished executive deck, and validates the PPTX.",
+      "files": [
+        "notes/company-strategy.md"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "我有一張文章裡的流程圖截圖，請參考它重畫相似架構圖，並在現有簡報新增 3 頁解釋這張圖的核心概念。",
+      "expected_output": "Recreates a similar but not copied diagram, adds three explanatory slides, regenerates the PPTX, and visually checks the new slides.",
+      "files": []
+    }
+  ]
+}

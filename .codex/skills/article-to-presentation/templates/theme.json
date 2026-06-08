@@ -1,0 +1,21 @@
+{
+  "name": "article-professional",
+  "layout": "16:9",
+  "fonts": {
+    "heading": "Aptos Display",
+    "body": "Aptos"
+  },
+  "colors": {
+    "charcoal": "1F2428",
+    "ink": "25313A",
+    "teal": "0B7C83",
+    "mint": "39B7A5",
+    "coral": "E85D4F",
+    "gold": "F2C14E",
+    "cream": "F7F3EA",
+    "white": "FFFFFF",
+    "muted": "64727D",
+    "line": "CBD6D6",
+    "pale": "E8F2EF"
+  }
+}
