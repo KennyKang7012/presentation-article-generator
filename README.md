@@ -28,6 +28,7 @@ QA 縮圖與單頁檢查檔會放在 `outputs/qa/`，這個資料夾已加入 `.
 outputs/    文章大綱、PPTX、QA 產物
 scripts/    各文章對應的簡報生成腳本
 .codex/     專案內使用的技能與模板
+AGENTS.md   貢獻者指南與協作規範
 ```
 
 ## 如何重新產生簡報
